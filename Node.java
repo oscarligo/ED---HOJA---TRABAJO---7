@@ -1,4 +1,4 @@
-public class Node <K, V> {
+public class Node <K extends Comparable<K>, V> {
 
     K key;
     V value;
@@ -48,9 +48,4 @@ public class Node <K, V> {
         this.key = key;
     }
 
-    
-
-
-
-    
 }
