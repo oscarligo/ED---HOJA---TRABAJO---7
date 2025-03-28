@@ -1,7 +1,7 @@
 /** 
  * Clase para un Binary Search Tree (BST) o arbol de busqueda binaria.
  * 
- * Se hicieron modificaciones a la clase original para que sea generica y
+ * Se hicieron modificaciones al códigoss original para que sea generica y
  * pueda almacenar cualquier tipo de dato en forma de clave y valor.
  * @author https://www.geeksforgeeks.org/insertion-in-binary-search-tree/
  */

@@ -1,11 +1,17 @@
 public class Node <K extends Comparable<K>, V> {
 
-    K key;
-    V value;
-    Node<K, V> left;
-    Node<K, V> right;
+    K key; // Clave del nodo
+    V value; // Valor del nodo     
+    Node<K, V> left; // Nodo izquierdo
+    Node<K, V> right; // Nodo derecho
+    
 
-
+    /**
+     * Constructor de la clase Node.
+     * @param key Clave del nodo
+     * @param value Valor del nodo
+     */
+    
     public Node(K key, V value) {
         this.key = key;
         this.value = value;
